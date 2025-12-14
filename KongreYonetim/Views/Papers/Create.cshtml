@@ -1,0 +1,51 @@
+﻿@model KongreYonetim.Models.Paper
+
+@{
+    ViewData["Title"] = "Yeni Bildiri";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header">
+                     <h3 class="card-title mb-0">Yeni Bildiri Gönder</h3>
+                        </div>
+                <div class="card-body">
+                    <form asp-action="Create" enctype="multipart/form-data">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Title" class="form-label fw-bold">Bildiri Başlığı</label>
+                            <input asp-for="Title" class="form-control" placeholder="Bildirinizin başlığını giriniz..." />
+                            <span asp-validation-for="Title" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Abstract" class="form-label fw-bold">Özet (Abstract)</label>
+                            <textarea asp-for="Abstract" class="form-control" rows="5" placeholder="Kısa bir özet yazınız..."></textarea>
+                            <span asp-validation-for="Abstract" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-4">
+                            <label class="form-label fw-bold">PDF Dosyası</label>
+                            <input type="file" name="upload" class="form-control" accept=".pdf" required />
+                            <small class="text-muted">Lütfen sadece PDF formatında dosya yükleyiniz.</small>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-success btn-lg">
+                                📤 Bildiriyi Sisteme Yükle
+                            </button>
+                            <a asp-action="Index" class="btn btn-outline-secondary">Listeye Dön</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

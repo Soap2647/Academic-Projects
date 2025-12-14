@@ -1,0 +1,75 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<div class="text-center py-5 mb-5">
+    <div class="container">
+        <div class="mb-4">
+            <i class="fa-solid fa-layer-group fa-4x mb-3" style="color: var(--accent-color);"></i>
+        </div>
+        <h1 class="display-4 fw-bold mb-3">Akademik Bildiri Yönetim Sistemi</h1>
+        <p class="lead text-muted mb-5 mx-auto" style="max-width: 600px;">
+            Kongre ve konferans süreçlerinizi tek bir yerden yönetin.
+            Bildiri gönderimi, hakem atama ve değerlendirme süreçlerini dijitalleştirin.
+        </p>
+
+        <div class="d-flex justify-content-center gap-3">
+            <a asp-controller="Papers" asp-action="Create" class="btn btn-primary btn-lg px-5 shadow-sm">
+                <i class="fas fa-upload me-2"></i> Bildiri Gönder
+            </a>
+            <a asp-controller="Papers" asp-action="Index" class="btn btn-outline-secondary btn-lg px-5">
+                <i class="fas fa-list me-2"></i> Listeyi İncele
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container pb-5">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 border-top" style="border-color: var(--border-color) !important;">
+
+        <div class="col">
+            <div class="card h-100 border-0 bg-transparent text-center">
+                <div class="card-body p-4">
+                    <div class="d-inline-flex align-items-center justify-content-center fs-4 rounded-3 mb-3 text-white"
+                         style="width: 60px; height: 60px; background-color: var(--primary-dark);">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <h3 class="fs-4 fw-bold mb-3">Kolay Gönderim</h3>
+                    <p class="text-muted">
+                        Yazarlar çalışmalarını PDF formatında sisteme yükleyebilir ve süreçlerini anlık takip edebilirler.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 border-0 bg-transparent text-center">
+                <div class="card-body p-4">
+                    <div class="d-inline-flex align-items-center justify-content-center fs-4 rounded-3 mb-3 text-white"
+                         style="width: 60px; height: 60px; background-color: var(--accent-color);">
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3 class="fs-4 fw-bold mb-3">Adil Puanlama</h3>
+                    <p class="text-muted">
+                        Hakemler, kendilerine atanan bildirileri kör hakemlik sistemiyle değerlendirip puanlayabilir.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card h-100 border-0 bg-transparent text-center">
+                <div class="card-body p-4">
+                    <div class="d-inline-flex align-items-center justify-content-center fs-4 rounded-3 mb-3 text-white"
+                         style="width: 60px; height: 60px; background-color: #5E6C7D;">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <h3 class="fs-4 fw-bold mb-3">Sonuç Odaklı</h3>
+                    <p class="text-muted">
+                        50 puan barajını geçen bildiriler otomatik kabul edilir, süreç şeffaf bir şekilde yönetilir.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

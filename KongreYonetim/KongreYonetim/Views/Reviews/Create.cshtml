@@ -1,0 +1,58 @@
+﻿@model KongreYonetim.Models.Review
+
+@{
+    ViewData["Title"] = "Değerlendirme Yap";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-7">
+            <div class="card shadow">
+                <div class="card-header">
+                    <h3 class="card-title mb-0">Değerlendirme Formu</h3>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group mb-3" style="display:none;">
+                            <label asp-for="PaperId" class="control-label"></label>
+                            <select asp-for="PaperId" class="form-control" asp-items="ViewBag.PaperId"></select>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label class="form-label fw-bold">Değerlendirilen Bildiri</label>
+                            <input type="text" class="form-control" value="@ViewBag.PaperTitle" readonly />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label class="form-label fw-bold text-muted">Bildiri Özeti (Abstract)</label>
+                            <div class="p-3 border rounded bg-light text-dark" style="min-height: 80px; font-style: italic; font-size: 0.9rem;">
+                                @ViewBag.PaperAbstract
+                            </div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Score" class="form-label fw-bold">Puan (0-100)</label>
+                            <input asp-for="Score" class="form-control" type="number" min="0" max="100" placeholder="Örn: 85" required />
+                            <span asp-validation-for="Score" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label asp-for="Comments" class="form-label fw-bold">Hakem Yorumu</label>
+                            <textarea asp-for="Comments" class="form-control" rows="4" placeholder="Bildiri hakkındaki görüşlerinizi yazınız..."></textarea>
+                            <span asp-validation-for="Comments" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid gap-2 mt-5">
+                            <button type="submit" class="btn btn-warning btn-lg text-dark fw-bold shadow-sm">
+                                <i class="fas fa-check-circle me-2"></i> Puanı Kaydet
+                            </button>
+                            <a asp-controller="Papers" asp-action="Index" class="btn btn-light border">İptal</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,38 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<ul class="navbar-nav align-items-center gap-2">
+@if (SignInManager.IsSignedIn(User))
+{
+    // E-postadan "@" öncesini alıp isim gibi gösterelim
+    var userEmail = User.Identity?.Name ?? "Kullanıcı";
+    var userName = userEmail.Contains("@") ? userEmail.Split('@')[0] : userEmail;
+    // İlk harfi büyüt
+    if(userName.Length > 0) userName = char.ToUpper(userName[0]) + userName.Substring(1);
+
+    <li class="nav-item">
+        <a  class="nav-link d-flex align-items-center gap-2" asp-area="Identity" asp-page="/Account/Manage/Index" title="Profilim">
+            <div class="rounded-circle d-flex justify-content-center align-items-center text-white fw-bold" 
+                 style="width: 35px; height: 35px; background-color: var(--accent-color);">
+                @userName[0]
+            </div>
+            <span class="d-none d-md-block">Merhaba, @userName</span>
+        </a>
+    </li>
+    <li class="nav-item">
+        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+            <button  type="submit" class="btn btn-sm btn-outline-light rounded-pill px-3">Çıkış Yap</button>
+        </form>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+        <a class="nav-link" asp-area="Identity" asp-page="/Account/Register">Kayıt Ol</a>
+    </li>
+    <li class="nav-item">
+        <a class="btn btn-sm btn-primary text-white px-4" asp-area="Identity" asp-page="/Account/Login">Giriş Yap</a>
+    </li>
+}
+</ul>

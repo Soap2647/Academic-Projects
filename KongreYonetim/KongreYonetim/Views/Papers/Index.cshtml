@@ -1,0 +1,127 @@
+﻿@model IEnumerable<KongreYonetim.Models.Paper>
+
+@{
+    ViewData["Title"] = "Bildiriler";
+}
+
+<div class="row align-items-center mb-4 mt-3">
+    <div class="col-md-6">
+        <h2 class="display-6 mb-0">
+            <span style="color: var(--accent-color);">Kongre</span> Bildirileri
+        </h2>
+        <p class="text-muted mt-1 mb-0">Akademik çalışmaları buradan yönetebilirsiniz.</p>
+    </div>
+
+    <div class="col-md-6">
+        <div class="d-flex gap-2 justify-content-md-end mt-3 mt-md-0">
+            <form asp-action="Index" method="get" class="d-flex flex-grow-1" style="max-width: 300px;">
+                <div class="input-group shadow-sm">
+                    <input type="text" name="searchString" class="form-control border-end-0" placeholder="Bildiri Ara..." value="@ViewContext.HttpContext.Request.Query["searchString"]">
+                    <button class="btn btn-light border border-start-0 text-muted" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </form>
+
+            <a asp-action="Create" class="btn btn-primary shadow-sm d-flex align-items-center">
+                <i class="fas fa-plus me-2"></i> <span class="d-none d-sm-inline">Yeni Bildiri</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="card shadow-lg border-0">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover mb-0 align-middle">
+                <thead>
+                    <tr>
+                        <th class="ps-4 py-3" style="width: 40%;">Çalışma Detayları</th>
+                        <th style="width: 15%">Dosya</th>
+                        <th style="width: 20%">Güncel Durum</th>
+                        <th class="text-end pe-4" style="width: 25%;">İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="ps-4 py-4">
+                                <h5 class="mb-1 fw-bold text-dark">@item.Title</h5>
+                                <p class="text-muted small mb-0 text-truncate" style="max-width: 400px;">
+                                    @item.Abstract
+                                </p>
+                            </td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(item.FilePath))
+                                {
+                                    <a href="~/uploads/@item.FilePath" target="_blank" class="btn btn-sm btn-outline-secondary rounded-pill px-3">
+                                        <i class="fas fa-file-pdf me-1 text-danger"></i> PDF
+                                    </a>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-light text-secondary"><i class="fas fa-times"></i> Yok</span>
+                                }
+                            </td>
+                            <td>
+                                @if (item.Status == KongreYonetim.Models.PaperStatus.Accepted)
+                                {
+                                    <span class="badge bg-success bg-opacity-10 text-success border border-success px-3 py-2">
+                                        <i class="fas fa-check-circle me-1"></i> Kabul
+                                    </span>
+                                }
+                                else if (item.Status == KongreYonetim.Models.PaperStatus.Rejected)
+                                {
+                                    <span class="badge bg-danger bg-opacity-10 text-danger border border-danger px-3 py-2">
+                                        <i class="fas fa-times-circle me-1"></i> Ret
+                                    </span>
+                                }
+                                else
+                                {
+                                    <span class="badge bg-warning bg-opacity-10 text-warning border border-warning px-3 py-2 text-dark">
+                                        <i class="fas fa-clock me-1"></i> Bekliyor
+                                    </span>
+                                }
+                            </td>
+                            <td class="text-end pe-4">
+                                <div class="d-flex justify-content-end gap-2">
+
+                                    @if (User.Identity.Name == "admin@gmail.com")
+                                    {
+                                        <a asp-controller="Reviews" asp-action="Create" asp-route-paperId="@item.Id"
+                                           class="btn btn-warning btn-sm text-dark fw-bold px-3 shadow-sm" title="Puanla">
+                                            <i class="fas fa-star"></i>
+                                        </a>
+
+                                        <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-light border text-danger" title="Sil">
+                                            <i class="fas fa-trash"></i>
+                                        </a>
+                                    }
+
+                                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-light border text-secondary" title="Düzenle">
+                                        <i class="fas fa-pen"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="text-center py-5">
+        <div class="text-muted mb-3">
+            <i class="fas fa-search fa-3x opacity-25"></i>
+        </div>
+        <h4 class="text-muted">Sonuç bulunamadı.</h4>
+        @if (!string.IsNullOrEmpty(ViewContext.HttpContext.Request.Query["searchString"]))
+        {
+            <a asp-action="Index" class="btn btn-link">Listeyi Sıfırla</a>
+        }
+    </div>
+}

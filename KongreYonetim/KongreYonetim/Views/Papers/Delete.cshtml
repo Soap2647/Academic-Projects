@@ -1,0 +1,58 @@
+﻿@model KongreYonetim.Models.Paper
+
+@{
+    ViewData["Title"] = "Bildiriyi Sil";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg border-danger">
+                <div class="card-header bg-danger text-white">
+                    <h3 class="card-title mb-0"><i class="fas fa-exclamation-triangle me-2"></i>Bildiriyi Sil</h3>
+                </div>
+                <div class="card-body">
+                    <h4 class="text-center text-danger mb-4">Bu bildiriyi silmek istediğinize emin misiniz?</h4>
+                    <p class="text-center text-muted mb-4">Bu işlem geri alınamaz.</p>
+
+                    <dl class="row">
+                        <dt class="col-sm-3">Bildiri Başlığı</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Title)</dd>
+
+                        <dt class="col-sm-3">Özet</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.Abstract)</dd>
+
+                        <dt class="col-sm-3">Dosya Adı</dt>
+                        <dd class="col-sm-9">@Html.DisplayFor(model => model.FileName)</dd>
+
+                        <dt class="col-sm-3">Durum</dt>
+                        <dd class="col-sm-9">
+                            @if (Model.Status == KongreYonetim.Models.PaperStatus.Accepted)
+                            {
+                                <span class="badge bg-success">Kabul Edildi</span>
+                            }
+                            else if (Model.Status == KongreYonetim.Models.PaperStatus.Rejected)
+                            {
+
+                                <span class="badge bg-danger">Reddedildi</span>
+                            }
+                            else
+                            {
+
+                                <span class="badge bg-warning text-dark">Değerlendirmede</span>
+                            }
+                        </dd>
+                    </dl>
+
+                    <form asp-action="Delete" class="text-center mt-4">
+                        <input type="hidden" asp-for="Id" />
+                        <button type="submit" class="btn btn-danger btn-lg px-5">
+                            <i class="fas fa-trash-alt me-2"></i> Evet, Sil
+                        </button>
+                        <a asp-action="Index" class="btn btn-outline-secondary btn-lg px-5 ms-2">İptal</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

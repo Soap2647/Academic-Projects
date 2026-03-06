@@ -74,18 +74,4 @@ npm run electron:dist
 
 *Çıktılar `release` klasöründe oluşturulacaktır.*
 
----
 
-## 🤝 Katkıda Bulunma
-
-1. Bu depoyu çatallayın (Fork).
-2. Özellik dalınızı oluşturun (`git checkout -b ozellik/yeniOzellik`).
-3. Değişikliklerinizi kaydedin (`git commit -m 'Yeni özellik eklendi'`).
-4. Dalınıza push yapın (`git push origin ozellik/yeniOzellik`).
-5. Bir Pull Request açın.
-
----
-
-## 📄 Lisans
-
-Bu proje **Mert Studio** tarafından geliştirilmiştir. Tüm hakları saklıdır. Copyright © 2024.

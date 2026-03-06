@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Bağımlılıklar ve Derleme Çıktıları
+node_modules/
+dist/
+dist-ssr/
+build/
+out/
+*.local
+
+# --- Mert Studio Code Özel (Büyük Dosyalar) ---
+# GitHub 100MB üstünü kabul etmediği için bunları engelliyoruz
+*.exe
+*.msi
+*.zip
+*.7z
+release/
+win-unpacked/
+
+# Editör Ayarları
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

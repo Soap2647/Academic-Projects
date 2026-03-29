@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet --version)",
+      "Bash(dotnet new sln -n HospitalNoShow)",
+      "Bash(dotnet sln add src/HospitalNoShow.Domain/HospitalNoShow.Domain.csproj)",
+      "Bash(dotnet sln add src/HospitalNoShow.Application/HospitalNoShow.Application.csproj)",
+      "Bash(dotnet sln add src/HospitalNoShow.Infrastructure/HospitalNoShow.Infrastructure.csproj)",
+      "Bash(dotnet sln add src/HospitalNoShow.API/HospitalNoShow.API.csproj)",
+      "Bash(dotnet add src/HospitalNoShow.Application/HospitalNoShow.Application.csproj reference src/HospitalNoShow.Domain/HospitalNoShow.Domain.csproj)",
+      "Bash(dotnet add src/HospitalNoShow.Infrastructure/HospitalNoShow.Infrastructure.csproj reference src/HospitalNoShow.Domain/HospitalNoShow.Domain.csproj)",
+      "Bash(dotnet add src/HospitalNoShow.Infrastructure/HospitalNoShow.Infrastructure.csproj reference src/HospitalNoShow.Application/HospitalNoShow.Application.csproj)",
+      "Bash(dotnet add src/HospitalNoShow.API/HospitalNoShow.API.csproj reference src/HospitalNoShow.Application/HospitalNoShow.Application.csproj)",
+      "Bash(dotnet add src/HospitalNoShow.API/HospitalNoShow.API.csproj reference src/HospitalNoShow.Infrastructure/HospitalNoShow.Infrastructure.csproj)",
+      "Bash(dotnet add src/HospitalNoShow.Infrastructure/HospitalNoShow.Infrastructure.csproj package Microsoft.EntityFrameworkCore.SqlServer --version 8.0.0)",
+      "Bash(dotnet add src/HospitalNoShow.Infrastructure/HospitalNoShow.Infrastructure.csproj package Microsoft.EntityFrameworkCore.Tools --version 8.0.0)",
+      "Bash(dotnet add src/HospitalNoShow.Infrastructure/HospitalNoShow.Infrastructure.csproj package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 8.0.0)",
+      "Bash(dotnet add src/HospitalNoShow.API/HospitalNoShow.API.csproj package Microsoft.AspNetCore.Authentication.JwtBearer --version 8.0.0)",
+      "Bash(dotnet add src/HospitalNoShow.API/HospitalNoShow.API.csproj package Microsoft.AspNetCore.Identity.EntityFrameworkCore --version 8.0.0)",
+      "Bash(dotnet add src/HospitalNoShow.API/HospitalNoShow.API.csproj package Swashbuckle.AspNetCore --version 6.5.0)",
+      "Bash(dotnet build src/HospitalNoShow.BlazorClient/HospitalNoShow.BlazorClient.csproj --no-restore -v quiet)",
+      "Bash(dotnet build src/HospitalNoShow.BlazorClient/HospitalNoShow.BlazorClient.csproj --no-restore -v q)",
+      "Bash(dotnet build src/HospitalNoShow.API/HospitalNoShow.API.csproj --no-restore -v q)",
+      "Bash(pandoc \"C:/Users/merty/Downloads/karsilastirma_raporu.docx\" -o /tmp/karsilastirma.md)",
+      "Read(//tmp/**)",
+      "Bash(where pandoc:*)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Users/merty/AppData/Local/**)",
+      "Read(//c/Users/merty/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/755b2d7e-79a4-4aad-a6e0-56e7c11512d5/635b609b-e1d2-494a-8e61-f3ce82e1a0c3/skills/docx/**)",
+      "Bash(node -e \":*)",
+      "Bash(node -e \"const {createCanvas}=require\\(''canvas''\\);const c=createCanvas\\(100,100\\);console.log\\(''canvas OK''\\)\")",
+      "Bash(node gen_diagrams.js)",
+      "Bash(node create_rapor_v2.js)",
+      "Bash(node create_rapor_v3.js)"
+    ]
+  }
+}

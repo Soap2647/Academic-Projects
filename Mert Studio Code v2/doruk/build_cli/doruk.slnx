@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7600c89e-c983-3532-bd39-dab383cba99f" DefaultStartup="true">
+		<BuildDependency Project="_deps/catch2-build/src/Catch2.vcxproj"/>
+		<BuildDependency Project="_deps/catch2-build/src/Catch2WithMain.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="doruk.vcxproj"/>
+		<BuildDependency Project="doruk_engine.vcxproj"/>
+		<BuildDependency Project="ide/doruk_ide.vcxproj"/>
+		<BuildDependency Project="test_interpreter.vcxproj"/>
+		<BuildDependency Project="test_lexer.vcxproj"/>
+		<BuildDependency Project="test_parser.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="_deps/catch2-build/src/Catch2.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8d538cbe-01bf-4a2e-a98a-6c368fdf13d7">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="_deps/catch2-build/src/Catch2WithMain.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8bd3552a-2cfb-4a59-ab15-2031b97ada1e">
+		<BuildDependency Project="_deps/catch2-build/src/Catch2.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="RUN_TESTS.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="06691cb3-f980-3fd5-b858-cc489d7145c7">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0f03ad3f-10d3-3a81-aae2-53566ee871dc"/>
+	<Project Path="doruk.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="e19ded2f-747a-3bfc-8f14-1ffb678cce5e">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="doruk_engine.vcxproj"/>
+	</Project>
+	<Project Path="doruk_engine.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c1768ca7-aea6-3292-9219-ddb5884fb1a5">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="ide/doruk_ide.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="8bb9bf84-6a25-3005-9ae2-e5b95952dd32">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="doruk_engine.vcxproj"/>
+	</Project>
+	<Project Path="test_interpreter.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="018f843d-a496-3d13-a23f-b2370e1b8b57">
+		<BuildDependency Project="_deps/catch2-build/src/Catch2.vcxproj"/>
+		<BuildDependency Project="_deps/catch2-build/src/Catch2WithMain.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="doruk_engine.vcxproj"/>
+	</Project>
+	<Project Path="test_lexer.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="0b8e1756-b1c7-35a3-bce7-1c271d3db045">
+		<BuildDependency Project="_deps/catch2-build/src/Catch2.vcxproj"/>
+		<BuildDependency Project="_deps/catch2-build/src/Catch2WithMain.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="doruk_engine.vcxproj"/>
+	</Project>
+	<Project Path="test_parser.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="07f1fcc2-11de-37df-94aa-18dbf9811d6e">
+		<BuildDependency Project="_deps/catch2-build/src/Catch2.vcxproj"/>
+		<BuildDependency Project="_deps/catch2-build/src/Catch2WithMain.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="doruk_engine.vcxproj"/>
+	</Project>
+</Solution>

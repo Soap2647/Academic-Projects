@@ -1,0 +1,3 @@
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/out/build/x64-Debug/_deps/catch2-subbuild/CMakeFiles/catch2-populate.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/out/build/x64-Debug/_deps/catch2-subbuild/CMakeFiles/edit_cache.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/out/build/x64-Debug/_deps/catch2-subbuild/CMakeFiles/rebuild_cache.dir

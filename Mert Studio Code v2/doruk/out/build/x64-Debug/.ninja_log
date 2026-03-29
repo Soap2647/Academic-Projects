@@ -1,0 +1,26 @@
+# ninja log v6
+28	648	7945324239893169	CMakeFiles/doruk_engine.dir/engine/src/Token.cpp.obj	7983854f22d990ad
+57	689	7945324240184043	CMakeFiles/doruk_engine.dir/engine/src/Environment.cpp.obj	db53817539f9d1e7
+33	742	7945324239938996	CMakeFiles/doruk_engine.dir/engine/src/Diagnostics.cpp.obj	4e4e9cf0135010ff
+40	751	7945324240014628	CMakeFiles/doruk_engine.dir/engine/src/AST.cpp.obj	2e8a2acd55a7609a
+36	801	7945324239979324	CMakeFiles/doruk_engine.dir/engine/src/Lexer.cpp.obj	6c3df12946d2f1c7
+52	907	7945324240140687	CMakeFiles/doruk_engine.dir/engine/src/Value.cpp.obj	bdfe2b2915e7e400
+48	922	7945324240095105	CMakeFiles/doruk_engine.dir/engine/src/SemanticAnalyzer.cpp.obj	d8cc14e3846858c2
+44	1041	7945324240055336	CMakeFiles/doruk_engine.dir/engine/src/Parser.cpp.obj	4272e956ea101dc4
+62	1200	7945324240234742	CMakeFiles/doruk_engine.dir/engine/src/Interpreter.cpp.obj	af01ef51e8d7e73e
+1200	1262	7945324251601124	doruk_engine.lib	c5c9b8644d982533
+1262	1612	7945324255240254	ide/doruk_ide_autogen/timestamp	dc885645de4f1399
+1262	1612	7945324255240254	ide/doruk_ide_autogen/mocs_compilation.cpp	dc885645de4f1399
+1262	1612	7945324255240254	D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/out/build/x64-Debug/ide/doruk_ide_autogen/timestamp	dc885645de4f1399
+1262	1612	7945324255240254	D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/out/build/x64-Debug/ide/doruk_ide_autogen/mocs_compilation.cpp	dc885645de4f1399
+1644	4264	7945324256051191	ide/CMakeFiles/doruk_ide.dir/src/RunnerThread.cpp.obj	a9908b8d75490bef
+1653	4417	7945324256143417	ide/CMakeFiles/doruk_ide.dir/src/main.cpp.obj	41a372b59417060b
+1626	4478	7945324255855305	ide/CMakeFiles/doruk_ide.dir/src/DorukHighlighter.cpp.obj	3ac906f39716c72c
+1639	4553	7945324255998162	ide/CMakeFiles/doruk_ide.dir/src/MinimapWidget.cpp.obj	c803fd96c510994f
+1622	4617	7945324255835161	ide/CMakeFiles/doruk_ide.dir/src/CustomDialogs.cpp.obj	77e6f8533c892f79
+1619	4814	7945324255790594	ide/CMakeFiles/doruk_ide.dir/src/CodeEditor.cpp.obj	e29feec2b2c8517c
+1634	5108	7945324255962794	ide/CMakeFiles/doruk_ide.dir/src/MainWindowRun.cpp.obj	25458cae1d10e1ac
+1648	5162	7945324256087642	ide/CMakeFiles/doruk_ide.dir/src/ThemeManager.cpp.obj	ec729a3edb61cb13
+1615	5280	7945324255754769	ide/CMakeFiles/doruk_ide.dir/doruk_ide_autogen/mocs_compilation.cpp.obj	6f600febb72c0e9b
+1630	5288	7945324255912324	ide/CMakeFiles/doruk_ide.dir/src/MainWindow.cpp.obj	b41a6994518782dc
+5289	5953	7945324292500523	ide/doruk_ide.exe	9668db26c4efba43

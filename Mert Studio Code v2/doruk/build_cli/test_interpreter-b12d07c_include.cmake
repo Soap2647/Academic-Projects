@@ -1,0 +1,5 @@
+if(EXISTS "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/test_interpreter-b12d07c_tests.cmake")
+  include("D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/test_interpreter-b12d07c_tests.cmake")
+else()
+  add_test(test_interpreter_NOT_BUILT-b12d07c test_interpreter_NOT_BUILT-b12d07c)
+endif()

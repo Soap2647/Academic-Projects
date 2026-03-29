@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\ide\doruk_ide_autogen\mocs_compilation_Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\src\CodeEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\src\CustomDialogs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\src\DorukHighlighter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\src\MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\src\MainWindowRun.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\src\MinimapWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\src\RunnerThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\src\ThemeManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\ide\doruk_ide_autogen\mocs_compilation_Release.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\ide\doruk_ide_autogen\mocs_compilation_MinSizeRel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\ide\doruk_ide_autogen\mocs_compilation_RelWithDebInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\include\CodeEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\include\CustomDialogs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\include\DorukHighlighter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\include\MainWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\include\MinimapWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\include\RunnerThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\include\ThemeManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\ide\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B5CDA5C3-5504-33BD-81AF-C36ED7722CBE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A9D7C6AE-E61C-3294-BC00-81BD99E22C04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

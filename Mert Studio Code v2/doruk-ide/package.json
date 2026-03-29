@@ -1,0 +1,20 @@
+{
+  "name": "mert-studio-code",
+  "productName": "Mert Studio Code",
+  "version": "1.0.0",
+  "description": "DORUK Programlama Dili - Mert Studio Code IDE",
+  "author": "Mert",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "node node_modules/@electron/packager/bin/electron-packager.mjs . \"Mert Studio Code\" --platform=win32 --arch=x64 --out=dist --overwrite --electron-version=28.3.3 --ignore=\"/dist\" --ignore=\"/.git\" --ignore=\"/node_modules/.cache\" --asar=false --app-version=1.0.0 && node -e \"const fs=require('fs'),path=require('path');const s=path.join(__dirname,'../doruk/doruk.exe'),d=path.join(__dirname,'dist/Mert Studio Code-win32-x64/doruk.exe');if(fs.existsSync(s)){fs.copyFileSync(s,d);console.log('[pack] doruk.exe dist klasörüne kopyalandı');}else{console.warn('[pack] UYARI: doruk.exe bulunamadı →',s);}\""
+  },
+  "devDependencies": {
+    "@electron/packager": "^19.0.5",
+    "electron": "^28.3.3",
+    "jimp": "^1.6.0"
+  },
+  "dependencies": {
+    "monaco-editor": "^0.45.0"
+  }
+}

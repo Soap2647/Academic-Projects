@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/out/build/x64-Debug/cmake_install.cmake",
+		"D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/out/build/x64-Debug/_deps/catch2-build/cmake_install.cmake",
+		"D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/out/build/x64-Debug/_deps/catch2-build/src/cmake_install.cmake",
+		"D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/out/build/x64-Debug/ide/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,15 @@
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/CMakeFiles/doruk_engine.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/CMakeFiles/doruk.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/CMakeFiles/test_lexer.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/CMakeFiles/test_parser.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/CMakeFiles/test_interpreter.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/CMakeFiles/RUN_TESTS.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/CMakeFiles/ALL_BUILD.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/CMakeFiles/ZERO_CHECK.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-build/CMakeFiles/RUN_TESTS.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-build/CMakeFiles/ALL_BUILD.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-build/src/CMakeFiles/Catch2.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-build/src/CMakeFiles/RUN_TESTS.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/ide/CMakeFiles/doruk_ide.dir
+D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/ide/CMakeFiles/RUN_TESTS.dir

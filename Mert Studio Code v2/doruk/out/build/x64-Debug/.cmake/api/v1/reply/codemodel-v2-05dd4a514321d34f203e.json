@@ -1,0 +1,206 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "_deps/catch2-build",
+					"childIndexes" : 
+					[
+						2
+					],
+					"jsonFile" : "directory-_deps.catch2-build-Debug-49b55046d91abc5c36ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/_deps/catch2-src"
+				},
+				{
+					"build" : "_deps/catch2-build/src",
+					"jsonFile" : "directory-_deps.catch2-build.src-Debug-c1c381eae46f37164ac0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "out/build/x64-Debug/_deps/catch2-src/src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "ide",
+					"jsonFile" : "directory-ide-Debug-a46d916de7fafb17b1a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ide",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						3
+					],
+					"name" : "doruk",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Catch2::@fa92aa50e9bf5e1a7206",
+					"jsonFile" : "target-Catch2-Debug-a330b24b5e956e456de8.json",
+					"name" : "Catch2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Catch2WithMain::@fa92aa50e9bf5e1a7206",
+					"jsonFile" : "target-Catch2WithMain-Debug-dce197cc75488ae2495c.json",
+					"name" : "Catch2WithMain",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doruk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doruk-Debug-806f7c637aa7073d95e3.json",
+					"name" : "doruk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doruk_engine::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doruk_engine-Debug-9a92f4373c1d66b894b5.json",
+					"name" : "doruk_engine",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "doruk_ide::@57604c35de15a37c233a",
+					"jsonFile" : "target-doruk_ide-Debug-39d1304040d713ac8c5a.json",
+					"name" : "doruk_ide",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "doruk_ide_autogen::@57604c35de15a37c233a",
+					"jsonFile" : "target-doruk_ide_autogen-Debug-1e75b6a2a818a0aedff0.json",
+					"name" : "doruk_ide_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "doruk_ide_autogen_timestamp_deps::@57604c35de15a37c233a",
+					"jsonFile" : "target-doruk_ide_autogen_timestamp_deps-Debug-48676fc59d94e91433d5.json",
+					"name" : "doruk_ide_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_interpreter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_interpreter-Debug-8907fbd85a42c88a0436.json",
+					"name" : "test_interpreter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_lexer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_lexer-Debug-d39684676a705f975f6b.json",
+					"name" : "test_lexer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_parser::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_parser-Debug-277cf93359f07398d5f9.json",
+					"name" : "test_parser",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/out/build/x64-Debug",
+		"source" : "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

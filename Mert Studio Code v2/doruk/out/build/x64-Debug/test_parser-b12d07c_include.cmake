@@ -1,0 +1,5 @@
+if(EXISTS "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/out/build/x64-Debug/test_parser-b12d07c_tests.cmake")
+  include("D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/out/build/x64-Debug/test_parser-b12d07c_tests.cmake")
+else()
+  add_test(test_parser_NOT_BUILT-b12d07c test_parser_NOT_BUILT-b12d07c)
+endif()

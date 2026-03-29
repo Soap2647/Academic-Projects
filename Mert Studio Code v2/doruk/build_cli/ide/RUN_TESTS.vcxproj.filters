@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\CMakeFiles\734206eab7eb617b7d6618ea9c240d30\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{952C9233-F2C5-3FA7-AAF1-A017179347B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

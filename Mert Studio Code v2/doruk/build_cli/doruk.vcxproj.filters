@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\cli\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A9D7C6AE-E61C-3294-BC00-81BD99E22C04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

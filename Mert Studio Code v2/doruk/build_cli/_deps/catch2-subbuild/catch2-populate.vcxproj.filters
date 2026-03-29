@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\_deps\catch2-subbuild\CMakeFiles\e18be12443d2acac5324378aa67ee667\catch2-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\_deps\catch2-subbuild\CMakeFiles\e18be12443d2acac5324378aa67ee667\catch2-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\_deps\catch2-subbuild\CMakeFiles\e18be12443d2acac5324378aa67ee667\catch2-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\_deps\catch2-subbuild\CMakeFiles\e18be12443d2acac5324378aa67ee667\catch2-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\_deps\catch2-subbuild\CMakeFiles\e18be12443d2acac5324378aa67ee667\catch2-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\_deps\catch2-subbuild\CMakeFiles\e18be12443d2acac5324378aa67ee667\catch2-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\_deps\catch2-subbuild\CMakeFiles\e18be12443d2acac5324378aa67ee667\catch2-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\_deps\catch2-subbuild\CMakeFiles\e18be12443d2acac5324378aa67ee667\catch2-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\_deps\catch2-subbuild\CMakeFiles\c0190be40820d01c6ee1caba667af28e\catch2-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\_deps\catch2-subbuild\CMakeFiles\a350f8e841ea93222bf035df86b7c4db\catch2-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\_deps\catch2-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Mevcut Projeler\Mert Studio Code Nihai Hali\doruk\build_cli\_deps\catch2-subbuild\CMakeFiles\catch2-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{BD78CCFF-04AA-330E-9D97-D53701CCA114}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

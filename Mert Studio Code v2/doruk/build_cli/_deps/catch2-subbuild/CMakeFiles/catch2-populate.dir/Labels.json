@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-subbuild/CMakeFiles/catch2-populate"
+		},
+		{
+			"file" : "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-subbuild/CMakeFiles/a350f8e841ea93222bf035df86b7c4db/catch2-populate.rule"
+		},
+		{
+			"file" : "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-subbuild/CMakeFiles/c0190be40820d01c6ee1caba667af28e/catch2-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-subbuild/CMakeFiles/e18be12443d2acac5324378aa67ee667/catch2-populate-build.rule"
+		},
+		{
+			"file" : "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-subbuild/CMakeFiles/e18be12443d2acac5324378aa67ee667/catch2-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-subbuild/CMakeFiles/e18be12443d2acac5324378aa67ee667/catch2-populate-download.rule"
+		},
+		{
+			"file" : "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-subbuild/CMakeFiles/e18be12443d2acac5324378aa67ee667/catch2-populate-install.rule"
+		},
+		{
+			"file" : "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-subbuild/CMakeFiles/e18be12443d2acac5324378aa67ee667/catch2-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-subbuild/CMakeFiles/e18be12443d2acac5324378aa67ee667/catch2-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-subbuild/CMakeFiles/e18be12443d2acac5324378aa67ee667/catch2-populate-test.rule"
+		},
+		{
+			"file" : "D:/Mevcut Projeler/Mert Studio Code Nihai Hali/doruk/build_cli/_deps/catch2-subbuild/CMakeFiles/e18be12443d2acac5324378aa67ee667/catch2-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"catch2-populate"
+		],
+		"name" : "catch2-populate"
+	}
+}

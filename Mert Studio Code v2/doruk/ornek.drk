@@ -1,0 +1,101 @@
+// ──────────────────────────────────────────────
+//  DORUK Dili — Örnek Program
+// ──────────────────────────────────────────────
+
+yazdır("=== DORUK Demo ===")
+yazdır("")
+
+// ── 1. Değişkenler ve aritmetik ───────────────
+değişken x = 10
+değişken y = 3
+yazdır("Toplama    : " + (x + y))
+yazdır("Çıkarma    : " + (x - y))
+yazdır("Çarpma     : " + (x * y))
+yazdır("Bölme      : " + (x / y))
+yazdır("Mod        : " + (x % y))
+yazdır("")
+
+// ── 2. Koşullar ───────────────────────────────
+yazdır("=== Koşullar ===")
+eğer (x > y) {
+    yazdır("x, y'den büyük")
+} değilse {
+    yazdır("x, y'den küçük veya eşit")
+}
+
+eğer (x == 10 ve y == 3) {
+    yazdır("Her iki koşul da doğru")
+}
+yazdır("")
+
+// ── 3. Döngüler ───────────────────────────────
+yazdır("=== Döngüler ===")
+
+// için döngüsü
+yazdır("için döngüsü:")
+için (değişken i = 1; i <= 5; i += 1) {
+    yazdır("  " + i)
+}
+
+// döngü + kır
+yazdır("döngü + kır (3'e kadar):")
+değişken sayac = 0
+döngü (doğru) {
+    eğer (sayac >= 3) { kır }
+    yazdır("  sayac = " + sayac)
+    sayac += 1
+}
+yazdır("")
+
+// ── 4. Fonksiyonlar ───────────────────────────
+yazdır("=== Fonksiyonlar ===")
+
+fonksiyon faktoriyel(n) {
+    eğer (n <= 1) { döndür 1 }
+    döndür n * faktoriyel(n - 1)
+}
+
+fonksiyon topla(a, b) {
+    döndür a + b
+}
+
+fonksiyon mutlakDeger(n) {
+    eğer (n < 0) { döndür 0 - n }
+    döndür n
+}
+
+yazdır("5! = " + faktoriyel(5))
+yazdır("3! = " + faktoriyel(3))
+yazdır("topla(7, 8) = " + topla(7, 8))
+yazdır("mutlak(-42) = " + mutlakDeger(-42))
+yazdır("")
+
+// ── 5. Listeler ───────────────────────────────
+yazdır("=== Listeler ===")
+değişken sayilar = [10, 20, 30, 40, 50]
+yazdır("Liste: " + sayilar)
+yazdır("İlk eleman : " + sayilar[0])
+yazdır("Son eleman : " + sayilar[4])
+
+// Listeyi döngüyle topla
+değişken toplam = 0
+için (değişken j = 0; j < 5; j += 1) {
+    toplam += sayilar[j]
+}
+yazdır("Toplam     : " + toplam)
+yazdır("")
+
+// ── 6. İç içe fonksiyonlar ────────────────────
+yazdır("=== Fibonacci ===")
+
+fonksiyon fib(n) {
+    eğer (n <= 1) { döndür n }
+    döndür fib(n - 1) + fib(n - 2)
+}
+
+için (değişken k = 0; k <= 9; k += 1) {
+    yazdır("fib(" + k + ") = " + fib(k))
+}
+
+yazdır("")
+yazdır("=== Bitti ===")

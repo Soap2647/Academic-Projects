@@ -1,0 +1,1 @@
+# managers paketi — oyun yöneticileri

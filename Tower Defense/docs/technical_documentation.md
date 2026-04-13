@@ -352,7 +352,7 @@ installer\build.bat
 
 | Bileşen | Minimum |
 |---------|---------|
-| İşletim sistemi | Windows 10 (64-bit) |
+| İşletim sistemi | Windows 11 (64-bit) |
 | Python | 3.10+ (geliştirme için) |
 | RAM | 256 MB |
 | Depolama | 50 MB |

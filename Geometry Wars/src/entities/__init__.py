@@ -1,1 +1,0 @@
-# entities paketi başlatıcı

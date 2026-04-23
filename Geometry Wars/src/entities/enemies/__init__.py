@@ -1,1 +1,0 @@
-# enemies paketi başlatıcı

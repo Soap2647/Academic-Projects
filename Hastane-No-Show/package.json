@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "canvas": "^3.2.2",
-    "docx": "^9.6.1"
-  }
-}

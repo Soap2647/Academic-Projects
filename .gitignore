@@ -1,0 +1,20 @@
+# IDEs and Editors
+.vscode/
+.idea/
+.vs/
+*.suo
+*.sln
+*.user
+
+# OS Generated
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp

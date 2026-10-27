@@ -1,25 +1,46 @@
-# Academic Projects Hub (Web & Database)
+<div align="center">
 
-This repository acts as a central hub for various academic assignments and projects focusing on web development and database management. It contains foundational HTML/CSS studies, responsive web design implementations, and structured MySQL database queries and schemas designed during university courses.
+# 📚 Academic Projects
 
-## Contents
-- **html-calismalari / HTML Studies:** Basic syntax, semantic tags, and foundational web structures.
-- **web-sitesi / Web Site:** Advanced layouts, CSS styling, and functional web pages.
-- **MySQL:** Database schemas, relational models, and complex SQL query practices.
+**Web and database coursework from my first years of Computer Engineering**
 
-## Usage
-Each directory contains its own specific projects. HTML files can be opened directly in any modern web browser. MySQL files contain `.sql` scripts that can be imported into a MySQL server for testing.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+
+</div>
 
 ---
 
-# Akademik Projeler Merkezi (Web ve Veritabanı)
+A tidy archive of the small projects I built while learning the web stack, from the first semantic
+HTML pages to a PHP + MySQL CRUD app.
 
-Bu depo, web geliştirme ve veritabanı yönetimi odaklı akademik ödevler ve projeler için merkezi bir arşiv niteliğindedir. Üniversite dersleri kapsamında hazırlanmış temel HTML/CSS çalışmaları, duyarlı (responsive) web sitesi tasarımları ve yapılandırılmış MySQL veritabanı sorguları ile şemalarını içerir.
+| Folder | What's inside |
+|---|---|
+| [`html-calismalari/HTML Ornekleri`](html-calismalari/HTML%20Ornekleri) | First HTML exercises: semantic tags, lists, links and forms |
+| [`html-calismalari/Tablo Calismalari`](html-calismalari/Tablo%20Calismalari) | Table layouts and framesets |
+| [`html-calismalari/HTML Uygulamalari`](html-calismalari/HTML%20Uygulamalari) | Mini sites: **Cars** gallery, **Dünyamız** (an environment page), **Smile**, a product **landing page** |
+| [`web-sitesi`](web-sitesi) | A multi-section responsive website with CSS and vanilla JS |
+| [`MySQL`](MySQL) | Student-records **CRUD** in PHP + MySQL (`index`, `kayitlar`, `duzenle`, `sil`) |
 
-## İçerik
-- **html-calismalari:** Temel sözdizimi, anlamsal (semantic) etiketler ve temel web yapıları.
-- **web-sitesi:** Gelişmiş düzenler, CSS şekillendirmeleri ve işlevsel web sayfaları.
-- **MySQL:** Veritabanı şemaları, ilişkisel modeller ve karmaşık SQL sorgu pratikleri.
+## ▶️ Running
 
-## Kullanım
-Her klasör kendi özel projelerini içerir. HTML dosyalarını herhangi bir modern tarayıcıda doğrudan açabilirsiniz. MySQL dosyaları, test amaçlı bir MySQL sunucusuna aktarılabilecek `.sql` betikleri barındırır.
+- **HTML/CSS projects**: open any `index.html` in a browser.
+- **PHP + MySQL**: run under XAMPP/WAMP, create a database named `okul` with an `ogrenci` table, and open `MySQL/index.php`.
+
+> [!NOTE]
+> These are early learning projects and are kept as they were written. The PHP demo, for example, builds SQL
+> strings directly. My later projects use parameterised queries and ORMs
+> (see [Hospital-No-Show](https://github.com/Soap2647/Hospital-No-Show) and [TalentGuard-HR](https://github.com/Soap2647/TalentGuard-HR)).
+
+## 🇹🇷 Türkçe
+
+Bilgisayar Mühendisliği'nin ilk yıllarında hazırladığım web ve veritabanı ödevlerinin arşivi: temel HTML
+çalışmaları, tablo çalışmaları, mini web siteleri, duyarlı bir web sitesi ve PHP + MySQL ile öğrenci kayıt
+(CRUD) uygulaması.
+
+---
+
+<div align="center"><sub><a href="https://github.com/Soap2647">Mert Yasin Yılmaz</a> · Kastamonu University</sub></div>
